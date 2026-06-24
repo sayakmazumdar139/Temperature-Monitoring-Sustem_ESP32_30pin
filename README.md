@@ -7,6 +7,10 @@ The objective of this project is to continuously monitor the ambient temperature
 
 The ESP32 acts as the brain of the system.
 
+https://youtu.be/xTOhZ095O9Q?si=e-L4zUBUQBT5DbGr
+
+https://youtu.be/J8ei3hfQ99s?si=i-KRf1CZGI1h3GH8
+
 🔸Functions:
 
 Reads temperature and humidity data from the DHT11 sensor.
