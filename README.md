@@ -1,15 +1,6 @@
 # Temperature-Monitoring-Sustem_ESP32_30pin
 OBJECTIVE:
 The objective of this project is to continuously monitor the ambient temperature and humidity using a DHT11 sensor and display the measured values on a 16×2 LCD display. When the temperature exceeds a predefined threshold value, an LED and buzzer are activated to provide a visual and audible warning. 
-SYSTEM BLOCK DIAGRAM:
-DHT11 Sensor
-      │
-      ▼
-ESP32 DevKit V1
-      │
- ┌────┼────┐
- ▼    ▼    ▼
-LCD  LED  Buzzer
 
 WORKING PRINCIPLE:
 1. ESP32 DevKit V1 (Microcontroller Unit):
@@ -138,30 +129,6 @@ Measured Temperature = 38°C
 
 LED = ON
 Buzzer = ON
-Decision-Making Logic
-Start System
-      │
-      ▼
-Read DHT11 Data
-      │
-      ▼
-Display Values on LCD
-      │
-      ▼
-Temperature ≥ Threshold ?
-      │
- ┌────┴────┐
- │         │
-YES       NO
- │         │
- ▼         ▼
-LED ON   LED OFF
-Buzzer ON Buzzer OFF
- │         │
- └────┬────┘
-      ▼
-Repeat
 
 CONCLUSION:
-
 The Smart Temperature Monitoring System uses an ESP32 DevKit V1 microcontroller, DHT11 temperature and humidity sensor, 16×2 I2C LCD display, LED indicator, 220Ω current-limiting resistor, and buzzer to monitor environmental conditions in real time. The system provides both visual and audible alerts whenever the measured temperature exceeds the predefined threshold, making it suitable for basic industrial, laboratory, and home monitoring applications.
